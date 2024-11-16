@@ -23,8 +23,60 @@ A full-stack application to manage cars where users can create, view, edit, and 
 ----------------
 
 ### Car Schema
+```javascript
+const mongoose = require("mongoose");
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   javascriptCopy codeconst mongoose = require("mongoose");  const carSchema = new mongoose.Schema(    {      user: {        type: mongoose.Schema.Types.ObjectId,        ref: "User",        required: true,      },      carName: {        type: String,        required: true,        trim: true,      },      modelName: {        type: String,        required: true,        trim: true,      },      buyDate: {        type: Date,        required: true,      },      buyPrice: {        type: Number,        required: true,      },      description: {        type: String,        trim: true,      },      tags: {        type: [String],        validate: [arrayLimit, "You can only upload up to 10 tags."],      },      images: {        type: [String],        validate: [arrayLimit, "You can only upload up to 10 images."],      },    },    {      timestamps: true,    }  );  function arrayLimit(val) {    return val.length <= 10;  }  module.exports = mongoose.model("Car", carSchema);   `
+const carSchema = new mongoose.Schema(
+  {
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
+    },
+    carName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    modelName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    buyDate: {
+      type: Date,
+      required: true,
+    },
+    buyPrice: {
+      type: Number,
+      required: true,
+    },
+    description: {
+      type: String,
+      trim: true,
+    },
+    tags: {
+      type: [String],
+      validate: [arrayLimit, "You can only upload up to 10 tags."],
+    },
+    images: {
+      type: [String],
+      validate: [arrayLimit, "You can only upload up to 10 images."],
+    },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+function arrayLimit(val) {
+  return val.length <= 10;
+}
+
+module.exports = mongoose.model("Car", carSchema);
+
+```
+
 
 💻 Tech Stack
 -------------
@@ -44,8 +96,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 ---------------
 
 ### 1\. Clone the repository:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bash  git clone https://github.com/yourusername/car-management-app.git  cd car-management-app   `
+` bash  git clone https://github.com/yourusername/car-management-app.git  cd car-management-app   `
 
 ### 2\. Install dependencies:
 
