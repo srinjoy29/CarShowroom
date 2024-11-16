@@ -1,5 +1,5 @@
-// const API_BASE_URL = "https://carmanagementapplication.onrender.com/api";
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://car-backend-1-c5es.onrender.com/api";
+// const API_BASE_URL = "http://localhost:5000/api";
 
 export const api = {
   // Auth endpoints
