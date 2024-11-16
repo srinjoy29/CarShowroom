@@ -67,42 +67,39 @@ function arrayLimit(val) {
 
 module.exports = mongoose.model("Car", carSchema);
 
-💻 Tech Stack
+## 💻 Tech Stack
 Frontend: React.js, Tailwind CSS
 Backend: Node.js, Express.js
 Database: MongoDB (Mongoose)
 Authentication: JSON Web Tokens (JWT)
 Image Upload: Multer (with file upload validation)
-🚀 Installation
-1. Clone the repository:
-bash
-Copy code
+
+## 🚀 Installation
+### 1. Clone the repository:
+
 git clone https://github.com/yourusername/car-management-app.git  
 cd car-management-app  
-2. Install dependencies:
-bash
-Copy code
-# For backend
+### 2. Install dependencies:
+
+### For backend
 cd backend  
 npm install  
 
-# For frontend
+### For frontend
 cd ../frontend  
 npm install  
-3. Environment variables:
-Create a .env file in the backend directory with the following variables:
+### 3. Environment variables:
 
-bash
-Copy code
+## Create a .env file in the backend directory with the following variables:
+
 PORT=5000  
 MONGO_URI=mongodb://localhost:27017/car_management  
 JWT_SECRET=your_jwt_secret  
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name  
 CLOUDINARY_API_KEY=your_cloudinary_api_key  
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret  
-4. Run the application:
-bash
-Copy code
+### 4. Run the application:
+
 # Start the backend
 cd backend  
 npm start  
@@ -113,10 +110,7 @@ npm run dev
 5. Access the application:
 Visit http://localhost:5173 in your browser.
 
-📖 API Documentation
-For detailed API documentation, visit the API Docs.
-
-🔑 Initial Credentials
+### 🔑 Initial Credentials
 Use the following credentials for an initial experience (you can change them later):
 
 Email: demo@example.com
