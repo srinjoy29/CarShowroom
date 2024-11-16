@@ -101,28 +101,24 @@ module.exports = mongoose.model("Car", carSchema);
 ### 2\. Install dependencies:
 
 For **backend**:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bash  cd backend  npm install   `
+` bash  cd backend  npm install   `
 
 For **frontend**:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bash   cd ../frontend  npm install   `
+` bash   cd ../frontend  npm install   `
 
 ### 3\. Environment variables:
 
 Create a .env file in the **backend** directory with the following variables:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   env  PORT=5000  MONGO_URI=mongodb://localhost:27017/car_management  JWT_SECRET=your_jwt_secret  CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name  CLOUDINARY_API_KEY=your_cloudinary_api_key  CLOUDINARY_API_SECRET=your_cloudinary_api_secret   `
+` env  PORT=5000  MONGO_URI=mongodb://localhost:27017/car_management  JWT_SECRET=your_jwt_secret  CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name  CLOUDINARY_API_KEY=your_cloudinary_api_key  CLOUDINARY_API_SECRET=your_cloudinary_api_secret   `
 
 ### 4\. Run the application:
 
 Start the **backend**:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bash  cd backend  npm start   `
+` bash  cd backend  npm start   `
 
 Start the **frontend**:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bash  cd ../frontend  npm run dev   `
+` bash  cd ../frontend  npm run dev   `
 
 ### 5\. Access the application:
 
