@@ -110,7 +110,12 @@ For **frontend**:
 
 Create a .env file in the **backend** directory with the following variables:
 
-` env  PORT=5000  MONGO_URI=mongodb://localhost:27017/car_management  JWT_SECRET=your_jwt_secret  CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name  CLOUDINARY_API_KEY=your_cloudinary_api_key  CLOUDINARY_API_SECRET=your_cloudinary_api_secret   `
+` env  
+PORT=5000  MONGO_URI= YOUR_MONGO_URI  
+JWT_SECRET=your_jwt_secret  
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name  
+CLOUDINARY_API_KEY=your_cloudinary_api_key  
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret   `
 
 ### 4\. Run the application:
 
