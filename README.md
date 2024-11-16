@@ -11,6 +11,8 @@ A full-stack application to manage cars where users can create, view, edit, and 
 *   **Car Management**: Users can create, update, delete, and view cars.
     
 *   **Image Upload**: Upload up to 10 car images per entry.
+  
+*   **CAR MODEL/Price /Buying Date**:  Add car Model buy date . price etc.
     
 *   **Tags**: Add car-related tags like type, company, and dealer.
     
