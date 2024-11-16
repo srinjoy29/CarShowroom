@@ -65,7 +65,7 @@ function arrayLimit(val) {
   return val.length <= 10;
 }
 
-module.exports = mongoose.model("Car", carSchema);
+module.exports = mongoose.model("Car", carSchema); ```
 
 ## 💻 Tech Stack
 Frontend: React.js, Tailwind CSS
