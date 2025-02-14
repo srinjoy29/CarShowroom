@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/car-showroom/:path*", "destination": "/car-showroom/index.html" },
-    { "source": "/tech-blog/:path*", "destination": "/tech-blog/index.html" }
-  ]
-}
